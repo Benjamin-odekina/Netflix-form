@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #000;
+    font-family:'Poppins', sans-serif;
+    font-weight: 300;
+
+}
+.container {
+    max-width: 1080px;
+    min-height: 100vh;
+    background: url(/images/g.png) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #000;
+    border: 5px solid #fff;
+    /*position: relative;*/
+}
+.container img {
+    width: 100px;
+    height: auto;
+}
+/*.container::before {
+    position: absolute;
+    content: "";
+    background: url(/images/cook.jpg) no-repeat;
+    background-size: cover;
+    inset: 0;
+    opacity: .2;
+}*/
+.i-container {
+    max-width: 500px;
+    background-color: #000000df;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.i-container h1 {
+    margin-bottom: 0.5em;
+}
+#head {
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#head h1{
+    font-family:'Poppins', sans-serif;
+    font-weight: 900;
+}
+#head i {
+    cursor: pointer;
+}
+#input-space input {
+       width: 100%;
+       display: block;
+       padding: 20px;
+       box-sizing: border-box;
+       background-color: #474747d8;
+       border: none;
+       margin: .4em;
+}
+#input-space input[type="email"]:focus,
+#input-space input[type="password"]:focus{
+    border: 2px solid rgb(236, 10, 10);
+    box-shadow: inset 2px 2px 2px #0000004e;
+}
+#input-space input[type="submit"] {
+    margin-top: 25px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+#input-space input[type="submit"]:hover,
+#input-space input[type="submit"]:focus {
+    background-color: rgb(236, 10, 10);
+    transition: all 0.2s ease-in;
+}
+input {
+    color: #fff;
+    font-weight: 500;
+}
+::placeholder{
+    color: rgb(116, 116, 116);
+}
+#help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+#help label {
+    margin-left: 8px;
+}
+#help p a {
+    text-decoration: none;
+    color: #fff;
+}
+.new-details {
+    margin-top: 40px;
+    font-size: 14px;
+}
+.new-details a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+#blue{color: rgb(7, 7, 126);}
