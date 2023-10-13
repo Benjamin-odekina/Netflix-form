@@ -50,7 +50,7 @@ html {
     opacity: .2;
 }*/
 .i-container {
-    max-width: 400px;
+    max-width: 700px;
     background-color: #000000c1;
     margin: 0 auto;
     padding: 40px;
@@ -59,7 +59,7 @@ html {
 }
 @media only screen and (max-width: 480px) {
     .i-container {
-        max-width: 300px;
+        max-width: 500px;
         padding: 20px;
         line-height: 1.5;
     }
