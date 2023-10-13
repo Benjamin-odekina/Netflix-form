@@ -149,3 +149,10 @@ input {
 .new-details p:first-child {margin-bottom: 1.5rem;}
 .new-details p:last-child {margin-bottom: 1.5rem;}
 #blue{color: rgb(7, 7, 126);}
+#WARNING {
+    margin-top: 20px;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+
+}
